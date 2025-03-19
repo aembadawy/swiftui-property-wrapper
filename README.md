@@ -2,7 +2,7 @@
 
 SwiftUI offers 17 property wrappers for our applications, each of which provide different functionality. Knowing which one to use and when is critical to getting things right.
 
-## @State property wrapper
+## @State property Wrapper
 
 In SwiftUI views or a function of state **f(s) = V**  which means any time we want to modify our review or change any functionality or the way it looks, we need to introduce a *@State* property.
 
@@ -10,3 +10,8 @@ In SwiftUI views or a function of state **f(s) = V**  which means any time we wa
 **@State** is used primarily for managing small amounts of mutable data that are specific to a single view.
 
 *And how it works is essentially SwiftUI discords the previous view and redraws a new view whenever any change occurs in a state variable.*
+
+## @Binding Property Wrapper
+
+@Binding creates a link to a @State property. We cannot create @Binding without @State.
+@State property is the origin. Modifying @Binding modifies original @State.
