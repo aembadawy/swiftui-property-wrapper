@@ -17,3 +17,7 @@ In SwiftUI, @Binding is a property wrapper used for creating a two-way connectio
 
 **@Binding** creates a link to a @State property. We cannot create @Binding without @State.
 @State property is the origin. Modifying @Binding modifies original @State.
+
+## @Published Property Wrapper
+
+
